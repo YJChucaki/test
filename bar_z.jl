@@ -11,7 +11,7 @@ s = 2.5/ndiv*ones(nₚ)
 
 
 push!(nodes,:s₁=>s,:s₂=>s,:s₃=>s)
-set∇𝝭!(elements["Ω"])
+set𝝭!(elements["Ω"])
 set∇𝝭!(elements["Γᵍ"])
 
 
